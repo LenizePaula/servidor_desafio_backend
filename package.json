@@ -1,0 +1,23 @@
+{
+  "name": "servidor_desafio_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
+  },
+  "author": "Lenize Paula Ferreira Andrade",
+  "license": "ISC"
+}
